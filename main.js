@@ -1,8 +1,32 @@
 
   
-  // View a list of images.
-  // Note: All images within the container will be found by calling `element.querySelectorAll('img')`.
-  const gallery = new Viewer(document.getElementById('images'));
+// View a list of images.
+// Note: All images within the container will be found by calling `element.querySelectorAll('img')`.
+
+const globalConfig = {
+	movable: false,
+};
+
+function getGalleries() {
+	const listOfGalleries = document.querySelectorAll('#images');
+
+	[...listOfGalleries].forEach((ul) => {
+		new Viewer(ul, globalConfig);
+	});
+}
+
+function hideUnusedPhotos() {
+	const listOfImages = document.querySelectorAll('li.hide');
+
+	// скрыть картинки с классом hide
+	[...listOfImages].forEach((li) => {
+		li.style.display = 'none';
+	});
+}
+
+getGalleries();
+hideUnusedPhotos();
+
 
 var slideIndex = 1;
 showSlides(slideIndex);
