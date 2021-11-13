@@ -8,25 +8,27 @@ header {
 	height: 130px;
 }
 
-.cont {
+.content {
 	font-family: 'Arial', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
+	font-weight: normal;
 	color:rgba(255, 255, 255, 0.774);
     letter-spacing: 1px;
 	text-align: justify;
-	padding-left: 25px;
-	padding-right:  25px; 
+	padding-left: 30px;
+	padding-right:  30px; 
 }
 
 
 
 
-#hg{
+#textgusli{
 	position: absolute;
 	left: 50%;
 	top: 75px;
 	transform: translateX(-50%);
 	color:white;
+	font-weight: normal;
 	font-size: 20px;
 	font-family: 'Arial', sans-serif;
 	
@@ -40,14 +42,10 @@ header {
 }
 
 
-#image, #images img {
-width:700px;
-
-}
 
 /* Меню шапки */
 
-.top-menu {
+/* .top-menu {
 	position: relative;
 	background: rgba(34,34,34,.2);
 	
@@ -81,9 +79,9 @@ width:700px;
 	line-height: 80px;
 	padding: 0 20px;
 	font-size: 21px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-family: 'Arial', sans-serif;
-	font-weight: bold;
+	font-weight:normal;
 	color: white;
 	transition: .3s linear;
 	border-radius:25px;
@@ -116,7 +114,7 @@ width:700px;
   }
   @media (max-width: 630px) {
   .menu-main li {display: block;}
-  }
+  } */
 
 /* Конец меню шапки */
 
@@ -135,7 +133,7 @@ margin-top: 20px;
   width: 800px;
   position: relative;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 50px;
   
   
   
@@ -169,7 +167,7 @@ margin-top: 20px;
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 50px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
@@ -230,3 +228,162 @@ margin-top: 20px;
 }
 
 /* Конец слайд-шоу карусель */
+
+
+/* В наличии */
+
+.images img {
+	width: 300px;
+	height: 200px;
+	border-radius: 10px;
+	border-style:solid;
+	border-width:5px;
+	border-color:rgba(255, 255, 255, 0.527);
+	margin-top: 40px;
+	
+		
+}
+.visible {
+	cursor: pointer;
+	
+		
+}
+
+#available li {
+	list-style: none;
+	
+	
+}
+
+#available {
+margin-right:35px ;
+ display: flex;
+ flex-wrap:wrap;
+ justify-content:space-evenly;
+
+
+
+
+}
+
+
+
+#textguslivnal {
+	text-align: center;
+	color:rgba(255, 255, 255, 0.877);
+	font-family: 'Arial', sans-serif;
+	font-weight:normal;
+	letter-spacing: 1px;
+	margin-top: 150px;
+
+}
+
+.textproduct {
+	width: 300px;
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	color: white;
+	font-weight:normal;
+   
+}
+
+
+/* Футер сайта */
+
+footer {
+	margin-top: 100px;
+	border-top: 3px ridge rgba(255, 255, 255, 0.76);
+	
+}
+
+#contacts {
+	width:350px;
+	margin-left: 120px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-family: 'Arial', sans-serif;
+	font-weight: normal;
+	font-size: 12.5px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: flex-start;
+	background-color:rgba(255, 255, 255, 0.25) ;
+	border-radius: 15px;
+
+	
+}
+
+#contacts h3 {
+	margin-top: 9px;
+margin-bottom: 9px;
+}
+
+#contacts h2 {
+
+}
+
+
+.icon {
+	
+	
+}
+
+
+
+
+
+.menu-main {
+  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: black;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: black;}
+.menu-main a.current, .menu-main a:hover{color:rgb(65, 40, 16);}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: rgb(65, 40, 16);
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
