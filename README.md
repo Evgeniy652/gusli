@@ -1,1 +1,1 @@
-* [my-site](https://evgeniy652.github.io//mysite/)
+* [my-site](https://evgeniy652.github.io/mysite/)
