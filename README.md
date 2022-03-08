@@ -1,1 +1,1 @@
-* [gusli](https://evgeniy652.github.io/gusli/)
+* [Gusli](https://evgeniy652.github.io/gusli/)
