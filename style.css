@@ -245,29 +245,42 @@ article {
 
 /* В наличии */
 
-.images img {
+.images {
+	padding: 0;
+}
+
+.images1 img {
     width: 300px;
     height: 200px;
     border-radius: 10px;
     border-style: solid;
     border-width: 5px;
     border-color: rgba(255, 255, 255, 0.527);
-    margin-top: 40px;
+	margin-top: 40px;
+}
+
+.images2 img {
+	width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(255, 255, 255, 0.527);
 }
 
 .visible {
     cursor: pointer;
 }
 
-#available li {
+li {
     list-style: none;
 }
 
 #available {
-    margin-right: 35px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+	gap: 50px;
 }
 
 #textguslivnal {
@@ -295,13 +308,27 @@ article {
 }
 
 
+
 /* Футер сайта */
 
 footer {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
     margin-top: 100px;
     border-top: 3px ridge rgba(255, 255, 255, 0.76);
+}
+
+.footer-block1 {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+	gap: 50px;
+}
+
+.footer-date {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 13px;
 }
 
 #contacts {
@@ -320,6 +347,14 @@ footer {
     border-radius: 15px;
 }
 
+#contactsjump {
+	font-size: 18px;
+}
+
+#contacts a {
+	font-size: 14.5px;
+}
+
 #contacts h3 {
 	margin-top: 5px;
     margin-bottom: 5px;
@@ -336,4 +371,27 @@ footer {
     align-items: center;
 	text-decoration: none;
 	color:rgb(14, 14, 185);
+}
+
+.comment {
+	width: 300px;
+}
+
+#reviews {
+	text-align: center;
+    color: rgba(255, 255, 255, 0.877);
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+	font-size: 19px;
+}
+
+.text-review {
+	width: 300px;
+	text-align: center;
+    color: rgba(255, 255, 255, 0.877);
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+	font-size: 16px;
 }
