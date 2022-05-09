@@ -314,6 +314,15 @@ li {
 	margin-top: 5px;
 }
 
+video {
+	margin-top: 100px;
+	width: 300px;
+	height: 200px;
+	border: rgba(255, 255, 255, 0.527) solid 3px;
+	border-radius:10px;
+	background-color: black;
+}
+
 
 
 /* Футер сайта */
