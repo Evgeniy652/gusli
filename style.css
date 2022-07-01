@@ -277,6 +277,11 @@ article {
 
 .visible {
     cursor: pointer;
+		transition: transform 0.45s ease;
+}
+
+.visible:hover {
+	transform: scale(1.03);
 }
 
 li {
