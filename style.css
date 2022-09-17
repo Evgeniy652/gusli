@@ -14,15 +14,15 @@ header {
 
 .content {
     font-family: 'Arial', sans-serif;
-    font-size: 17.5px;
+    font-size: 17.4px;
     font-weight:lighter;
     color: rgba(255, 255, 255, 0.774);
     letter-spacing: 1px;
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
-	margin:25px 0 70px 0;
-	line-height: 1.4;
+    margin:25px 0 70px 0;
+    line-height: 1.4;
 }
 
 .upcontent {
@@ -38,7 +38,7 @@ header {
 .menu-main {
     list-style: none;
     margin: 40px 0 15px;
-    padding: 25px 0 5px;
+    padding: 23px 0 5px;
     text-align: center;
     background: rgba(255, 255, 255, 0.3);
 }
@@ -63,9 +63,9 @@ header {
     font-family: 'Arial', sans-serif;
     letter-spacing: 2px;
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 14px;
     margin: 0 34px 0 30px;
-    font-size: 17px;
+    font-size: 16px;
     text-transform: uppercase;
     display: inline-block;
     transition: color .2s;
@@ -85,7 +85,7 @@ header {
 .menu-main a:after {
     content: "";
     position: absolute;
-    height: 4px;
+    height: 2.5px;
     top: auto;
     right: 50%;
     bottom: -5px;
@@ -300,7 +300,7 @@ li {
     font-weight: normal;
     letter-spacing: 1px;
     margin-top: 100px;
-		font-size: 24px;
+		font-size: 22px;
 }
 
 .textproduct {
@@ -382,10 +382,10 @@ footer {
 }
 
 .center {
-    display: flex;
-    align-items: center;
-	text-decoration: none;
-	color:rgb(14, 14, 185);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+	color:rgba(12, 12, 12, 0.8);
 }
 
 .comment {
