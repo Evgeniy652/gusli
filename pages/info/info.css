@@ -1,0 +1,144 @@
+body {
+  background-image: url(../../images/2.png);
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+/* Меню шапки */
+.menu-main {
+  list-style: none;
+  margin: 40px 0 15px;
+  padding: 23px 0 5px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.menu-main li {
+  display: inline-block;
+}
+
+.menu-main li:after {
+  content: "|";
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu-main li:last-child:after {
+  content: none;
+}
+
+.menu-main a {
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 14px;
+  margin: 0 34px 0 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color 0.2s;
+}
+
+.menu-main a,
+.menu-main a:visited {
+  color: black;
+}
+
+.menu-main a.current,
+.menu-main a:hover {
+  color: rgb(65, 40, 16);
+}
+
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 2.5px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: rgb(65, 40, 16);
+  transition: 0.8s;
+}
+
+.menu-main a:hover:before,
+.menu-main .current:before {
+  left: 0;
+}
+
+.menu-main a:hover:after,
+.menu-main .current:after {
+  right: 0;
+}
+
+@media (max-width: 550px) {
+  .menu-main {
+    padding-top: 0;
+  }
+
+  .menu-main li {
+    display: block;
+  }
+
+  .menu-main li:after {
+    content: none;
+  }
+
+  .menu-main a {
+    padding: 25px 0 20px;
+    margin: 0 30px;
+  }
+}
+/* Конец меню шапки */
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 60vw;
+  background-color: rgb(224, 218, 218);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 17px;
+  line-height: 26px;
+  border-radius: 5px;
+}
+
+.content-img {
+  width: 45vw;
+  display: block;
+  pointer-events: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@media (max-width: 800px) {
+  .content {
+    width: 90vw;
+  }
+
+  .content-img {
+    width: 75vw;
+  }
+}
