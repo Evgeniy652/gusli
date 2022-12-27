@@ -124,6 +124,7 @@ article {
 }
 
 .content-img {
+  margin: 0 auto;
   width: 45vw;
   display: block;
   pointer-events: none;
