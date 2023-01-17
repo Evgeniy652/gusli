@@ -312,8 +312,23 @@ li {
   margin-top: 5px;
 }
 
-video {
+.video-block {
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-title {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.877);
+  font-family: "Arial", sans-serif;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 17px;
+}
+
+video {
   width: 300px;
   height: 200px;
   border: rgba(255, 255, 255, 0.527) solid 3px;
