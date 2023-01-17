@@ -177,6 +177,13 @@ main {
   border-radius: 0 3px 3px 0;
 }
 
+@media (max-width: 572px) {
+.prev,
+.next {
+  font-size: 20px;
+}
+}
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -368,7 +375,7 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  row-gap: 8px;
+  row-gap: 12px;
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 15px;
 }
@@ -397,6 +404,10 @@ footer {
   align-items: center;
   text-decoration: none;
   color: rgba(12, 12, 12, 0.8);
+}
+
+.contacts-icon-img {
+  width: 22px;
 }
 
 .comment {
