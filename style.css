@@ -148,6 +148,10 @@ main {
   margin: 0px 30px 0 30px;
 }
 
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
 .foto {
   border-radius: 20px;
