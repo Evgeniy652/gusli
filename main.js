@@ -1,25 +1,27 @@
-const slideshowContainer = document.querySelector(".slideshow-container");
-let countAllSlides = 32;
-let currentSlideNumber = 1;
-slideshowContainer.insertAdjacentHTML("afterbegin", `
-<div class="mySlides fade">
-<img class="foto" src="images/myslides/${currentSlideNumber}.jpg" alt="фото-гусли-${currentSlideNumber}">
-<div class="text"></div>
-</div>
-`);
-function nextSlides(n) {
-  currentSlideNumber += n;
-  if(currentSlideNumber === 0) {
-    currentSlideNumber= countAllSlides;
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
   }
-  if(currentSlideNumber>countAllSlides){
-    currentSlideNumber= 1;
-  }
-  const mySlides = document.querySelector('.mySlides');
-  mySlides.innerHTML = `
-  <img class="foto" src="images/myslides/${currentSlideNumber}.jpg" alt="фото-гусли-${currentSlideNumber}">
-  <div class="text"></div>
-`
+
+  slides[slideIndex-1].style.display = "block";
+
 }
 
   
