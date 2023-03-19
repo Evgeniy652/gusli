@@ -1,3 +1,5 @@
+//---------------------------------------SLIDER-------------------------------------------//
+
 // Показывает стартовое значение для слайдера
 let CURRENT_SLIDER_NUMBER = 1;
 // Показывает текущее значение для слайдера
@@ -6,7 +8,7 @@ const START_SLIDER_NUMBER = 1;
 const NUMBER_OF_PHOTOS_FOR_SLIDER = 28;
 const sliderContainer = document.querySelector('.slider-container');
 
-window.onload = () => {
+function postLoadSlider() {
   let countSlides = 0;
   const slides = document.querySelectorAll('.my-slide');
 
@@ -68,6 +70,10 @@ function loadSlide(number, hide) {
   sliderContainer.insertAdjacentHTML('beforeend', newSlide);
 }
 
+//---------------------------------------SLIDER END-------------------------------------------//
+
+//---------------------------------------VIEWER-------------------------------------------//
+
 // View a list of images.
 // Note: All images within the container will be found by calling `element.querySelectorAll('img')`.
 
@@ -83,19 +89,14 @@ function getGalleries() {
 	});
 }
 
-function hideUnusedPhotos() {
-	const listOfImages = document.querySelectorAll('li.hide');
+getGalleries();
 
-	// скрыть картинки с классом hide
-	[...listOfImages].forEach((li) => {
-		li.style.display = 'none';
-	});
+//---------------------------------------VIEWER END-------------------------------------------//
+
+//---------------------------------------AFTER FIRST INITIALIZATION-------------------------------------------//
+
+window.onload = () => {
+  postLoadSlider();
 }
 
-getGalleries();
-hideUnusedPhotos();
-
-
-
-
-
+//---------------------------------------AFTER FIRST INITIALIZATION END-------------------------------------------//

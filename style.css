@@ -149,7 +149,7 @@ main {
 }
 
 /* Hide the images by default */
-.hide-slide {
+.hide-slide, .hidden-photos {
   display: none;
 }
 
