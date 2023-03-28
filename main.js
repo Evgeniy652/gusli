@@ -9,12 +9,13 @@ const NUMBER_OF_PHOTOS_FOR_SLIDER = 28;
 const sliderContainer = document.querySelector('.slider-container');
 
 function postLoadSlider() {
-  let countSlides = 0;
-  const slides = document.querySelectorAll('.my-slide');
+  for (let index = START_SLIDER_NUMBER; index < NUMBER_OF_PHOTOS_FOR_SLIDER + 1; index++) {
+    const foundSlide = document.querySelector(`[data-id="slide-${index}"]`);
 
-  countSlides = slides.length;
+    if (foundSlide) {
+      continue;
+    }
 
-  for (let index = countSlides + 1; index < NUMBER_OF_PHOTOS_FOR_SLIDER + 1; index++) {
     loadSlide(index, 'hide-slide');
   }
 }
@@ -22,6 +23,10 @@ function postLoadSlider() {
 // Next/previous controls
 function rightSlide() {
   if (CURRENT_SLIDER_NUMBER === NUMBER_OF_PHOTOS_FOR_SLIDER) {
+    CURRENT_SLIDER_NUMBER = START_SLIDER_NUMBER;
+    const prevNumber = NUMBER_OF_PHOTOS_FOR_SLIDER;
+    showSlide(prevNumber);
+
     return;
   }
 
@@ -32,6 +37,9 @@ function rightSlide() {
 
 function leftSlide() {
   if (CURRENT_SLIDER_NUMBER === START_SLIDER_NUMBER) {
+    CURRENT_SLIDER_NUMBER = NUMBER_OF_PHOTOS_FOR_SLIDER;
+    const prevNumber = START_SLIDER_NUMBER;
+    showSlide(prevNumber);
     return;
   }
 
