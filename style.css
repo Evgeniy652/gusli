@@ -293,6 +293,7 @@ li {
 }
 
 #available {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -438,4 +439,35 @@ footer {
 
 .prodano {
   color: rgb(15, 133, 15);
+}
+
+.div-language {
+  text-align: center;
+  color:rgba(255, 255, 255, 0.88);
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.div-language a {
+  text-decoration: none;
+  background-color:rgba(255, 255, 255, 0.88);
+  border-radius: 3px;
+  color: black;
+  font-size: 17px;
+  padding: 0px 5px 2px 5px;
+  margin-right: 3px;
+}
+
+.div-language a:hover {
+  background-color: rgba(196, 234, 171, 0.877);
+}
+
+.span-active-lang {
+  text-decoration: none;
+  background-color:rgba(196, 234, 171, 0.877);
+  border-radius: 3px;
+  color: black;
+  font-size: 17px;
+  padding: 0px 5px 2px 5px;
+  margin-right: 3px;
 }

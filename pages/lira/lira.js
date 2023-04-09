@@ -89,7 +89,7 @@ function getGalleries() {
 	});
 }
 
-getGalleries();
+
 
 //---------------------------------------VIEWER END-------------------------------------------//
 
@@ -97,6 +97,7 @@ getGalleries();
 
 window.onload = () => {
   postLoadSlider();
+  getGalleries();
 }
 
 //---------------------------------------AFTER FIRST INITIALIZATION END-------------------------------------------//
