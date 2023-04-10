@@ -1,13 +1,21 @@
 const textGusliVnal = document.querySelector(".text-gusli-vnal");
 const textLiraVnal = document.querySelector(".text-lira-vnal");
-const spanActiveLang = document.querySelector(".span-active-lang");
-const langPage = spanActiveLang.innerHTML;
+const divGusli = document.querySelector(".div-gusli");
+const videoBlockGusli = document.querySelector(".video-block");
+const footer = document.getElementById("footer");
+const langPage = document.getElementsByTagName("html")[0].getAttribute("lang");
+let arrLang = ['en','fr','es'];
+let newArrLang = arrLang.filter((el)=>{
+  return el!=langPage
+});
 let nameImage = "";
 let nameGusli = "";
 let nameStrings = "";
 let namePrice = "";
 let nameShipping = "";
 let nameLyre = "";
+let nameContacts = "";
+let language = "";
 
 if (langPage == "en") {
   nameImage = "image";
@@ -16,7 +24,30 @@ if (langPage == "en") {
   namePrice = "price: $";
   nameShipping = "shipping";
   nameLyre = "Kravik Lyre";
+  nameContacts = "Contacts";
+  language = "Language";
 }
+if (langPage == "fr") {
+  nameImage = "image";
+  nameGusli = "Psaltérion";
+  nameStrings = "cordes";
+  namePrice = "prix: €($)";
+  nameShipping = "expéditeur";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Contacts";
+  language = "Langue";
+}
+if (langPage == "es") {
+  nameImage = "imagen";
+  nameGusli = "Salterio";
+  nameStrings = "cuerdas";
+  namePrice = "precio: €($)";
+  nameShipping = "reenvío";
+  nameLyre = "Lira Kravik";
+  nameContacts = "Contactos";
+  language = "Idioma";
+}
+
 textGusliVnal.insertAdjacentHTML(
   "afterend",
   `
@@ -165,6 +196,86 @@ textLiraVnal.insertAdjacentHTML(
 </div>
 `
 );
+
+divGusli.insertAdjacentHTML(
+  "afterbegin",
+  `
+<img class="gusli-img" src="../../images/myslides/20.jpg" alt="${nameGusli}-${nameImage}" />
+`
+);
+
+videoBlockGusli.insertAdjacentHTML(
+  "beforeend",
+  `
+<video
+controls
+preload="metadata"
+controlsList="nodownload  nofullscreen "
+>
+<source src="../../video/gusli.mp4" type="video/mp4" />
+</video>
+`
+);
+
+footer.insertAdjacentHTML('afterbegin', `
+<div class="footer-block1">
+<div id="contacts">
+  <h2 id="contactsjump">${nameContacts}:</h2>
+
+  <h3>
+    <a class="center" href="mailto:evgen652@mail.ru">
+      <img
+        class="contacts-icon-img"
+        src="../../images/email1.png"
+        alt="email"
+      />
+      &nbsp; evgen652@mail.ru
+    </a>
+  </h3>
+
+  <h3>
+    <a
+      class="center"
+      href="https://telegram.me/Oxonomy2"
+      target="_blank"
+    >
+      <img
+        class="contacts-icon-img"
+        src="../../images/telegram.png"
+        alt="telegram"
+      />
+      &nbsp; Telegram
+    </a>
+  </h3>
+
+  <h3>
+    <a
+      class="center"
+      href="https://www.instagram.com/evgenii_gusli/"
+      target="_blank"
+    >
+      <img
+        class="contacts-icon-img"
+        src="../../images/Instagram.png"
+        alt="Instagram"
+      />
+      &nbsp; Instagram
+    </a>
+  </h3>
+</div>
+</div>
+`);
+
+footer.insertAdjacentHTML('beforeend', `
+<div class="div-language">
+${language}: <span class="span-active-lang">${langPage}</span>
+<a href="../../index.html">ru</a>
+<a href="../${newArrLang[0]}/${newArrLang[0]}.html">${newArrLang[0]}</a>
+<a href="../${newArrLang[1]}/${newArrLang[1]}.html">${newArrLang[1]}</a>
+</div>
+
+<div class="footer-date">Copyright © 2023</div>
+`);
 
 const globalConfig = {
   movable: true,
