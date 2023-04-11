@@ -4,7 +4,7 @@ const divGusli = document.querySelector(".div-gusli");
 const videoBlockGusli = document.querySelector(".video-block");
 const footer = document.getElementById("footer");
 const langPage = document.getElementsByTagName("html")[0].getAttribute("lang");
-let arrLang = ['en','fr','es'];
+let arrLang = ['en','fr','es','de','pl','fi','sv','et'];
 let newArrLang = arrLang.filter((el)=>{
   return el!=langPage
 });
@@ -46,6 +46,56 @@ if (langPage == "es") {
   nameLyre = "Lira Kravik";
   nameContacts = "Contactos";
   language = "Idioma";
+}
+if (langPage == "de") {
+  nameImage = "Bild";
+  nameGusli = "Psalterium";
+  nameStrings = "zeichenketten";
+  namePrice = "Preis: €($)";
+  nameShipping = "versand";
+  nameLyre = "Kravik Leier";
+  nameContacts = "Kontakte";
+  language = "Sprache";
+}
+if (langPage == "pl") {
+  nameImage = "zdjęcie";
+  nameGusli = "Psałterz";
+  nameStrings = "ciągi";
+  namePrice = "cena: €($)";
+  nameShipping = "wysyłka";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Kontakty";
+  language = "Język";
+}
+if (langPage == "fi") {
+  nameImage = "kuva";
+  nameGusli = "Psalttari";
+  nameStrings = "jouset";
+  namePrice = "hinta: €($)";
+  nameShipping = "merenkulku";
+  nameLyre = "kravik-lyyra";
+  nameContacts = "Yhteystiedot";
+  language = "Kieli";
+}
+if (langPage == "sv") {
+  nameImage = "bild";
+  nameGusli = "Psaltery";
+  nameStrings = "strängar";
+  namePrice = "pris: €($)";
+  nameShipping = "frakt";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Kontakter";
+  language = "Språk";
+}
+if (langPage == "et") {
+  nameImage = "pilt";
+  nameGusli = "KANNEL(Psalteri)";
+  nameStrings = "stringid";
+  namePrice = "hind: €($)";
+  nameShipping = "postitus";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Kontaktid";
+  language = "Keel";
 }
 
 textGusliVnal.insertAdjacentHTML(
@@ -272,6 +322,11 @@ ${language}: <span class="span-active-lang">${langPage}</span>
 <a href="../../index.html">ru</a>
 <a href="../${newArrLang[0]}/${newArrLang[0]}.html">${newArrLang[0]}</a>
 <a href="../${newArrLang[1]}/${newArrLang[1]}.html">${newArrLang[1]}</a>
+<a href="../${newArrLang[2]}/${newArrLang[2]}.html">${newArrLang[2]}</a>
+<a href="../${newArrLang[3]}/${newArrLang[3]}.html">${newArrLang[3]}</a>
+<a href="../${newArrLang[4]}/${newArrLang[4]}.html">${newArrLang[4]}</a>
+<a href="../${newArrLang[5]}/${newArrLang[5]}.html">${newArrLang[5]}</a>
+<a href="../${newArrLang[6]}/${newArrLang[6]}.html">${newArrLang[6]}</a>
 </div>
 
 <div class="footer-date">Copyright © 2023</div>
