@@ -4,7 +4,7 @@ const divGusli = document.querySelector(".div-gusli");
 const videoBlockGusli = document.querySelector(".video-block");
 const footer = document.getElementById("footer");
 const langPage = document.getElementsByTagName("html")[0].getAttribute("lang");
-let arrLang = ['en','fr','es','de','pl','fi','sv','et'];
+let arrLang = ['en','fr','es','de','pl','fi','sv','et','no','da'];
 let newArrLang = arrLang.filter((el)=>{
   return el!=langPage
 });
@@ -96,6 +96,26 @@ if (langPage == "et") {
   nameLyre = "Kravik Lyre";
   nameContacts = "Kontaktid";
   language = "Keel";
+}
+if (langPage == "no") {
+  nameImage = "bilde";
+  nameGusli = "Psaltery(kantele)";
+  nameStrings = "strenger";
+  namePrice = "pris: €($)";
+  nameShipping = "skipsfart";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Kontakter";
+  language = "Språk";
+}
+if (langPage == "da") {
+  nameImage = "billede";
+  nameGusli = "Psaltery";
+  nameStrings = "strenge";
+  namePrice = "pris: €($)";
+  nameShipping = "levering";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Kontakter";
+  language = "Sprog";
 }
 
 textGusliVnal.insertAdjacentHTML(
@@ -327,6 +347,8 @@ ${language}: <span class="span-active-lang">${langPage}</span>
 <a href="../${newArrLang[4]}/${newArrLang[4]}.html">${newArrLang[4]}</a>
 <a href="../${newArrLang[5]}/${newArrLang[5]}.html">${newArrLang[5]}</a>
 <a href="../${newArrLang[6]}/${newArrLang[6]}.html">${newArrLang[6]}</a>
+<a href="../${newArrLang[7]}/${newArrLang[7]}.html">${newArrLang[7]}</a>
+<a href="../${newArrLang[8]}/${newArrLang[8]}.html">${newArrLang[8]}</a>
 </div>
 
 <div class="footer-date">Copyright © 2023</div>
