@@ -4,7 +4,7 @@ const divGusli = document.querySelector(".div-gusli");
 const videoBlockGusli = document.querySelector(".video-block");
 const footer = document.getElementById("footer");
 const langPage = document.getElementsByTagName("html")[0].getAttribute("lang");
-let arrLang = ['en','fr','es','de','pl','fi','sv','et','no','da','lv','lt','cs','ro'];
+let arrLang = ['en','fr','es','de','pl','fi','sv','et','no','da','lv','lt','cs','ro','hu','bg','it'];
 let newArrLang = arrLang.filter((el)=>{
   return el!=langPage
 });
@@ -156,6 +156,36 @@ if (langPage == "ro") {
   nameLyre = "Kravik Lyre";
   nameContacts = "Contacte";
   language = "Limba";
+}
+if (langPage == "hu") {
+  nameImage = "kép";
+  nameGusli = "Zsoltár(Psaltery)";
+  nameStrings = "húrok";
+  namePrice = "ár: €($)";
+  nameShipping = "továbbítás";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Kapcsolat";
+  language = "Nyelv";
+}
+if (langPage == "bg") {
+  nameImage = "изображение";
+  nameGusli = "Гусли";
+  nameStrings = "струни";
+  namePrice = "цена: €($)";
+  nameShipping = "доставка";
+  nameLyre = "Кравик Лира";
+  nameContacts = "За контакти";
+  language = "Език";
+}
+if (langPage == "it") {
+  nameImage = "immagine";
+  nameGusli = "Salterio";
+  nameStrings = "corde";
+  namePrice = "prezzo: €($)";
+  nameShipping = "inoltro";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Contatto";
+  language = "Lingua";
 }
 
 textGusliVnal.insertAdjacentHTML(
@@ -393,6 +423,9 @@ ${language}: <span class="span-active-lang">${langPage}</span>
 <a href="../${newArrLang[10]}/${newArrLang[10]}.html">${newArrLang[10]}</a>
 <a href="../${newArrLang[11]}/${newArrLang[11]}.html">${newArrLang[11]}</a>
 <a href="../${newArrLang[12]}/${newArrLang[12]}.html">${newArrLang[12]}</a>
+<a href="../${newArrLang[13]}/${newArrLang[13]}.html">${newArrLang[13]}</a>
+<a href="../${newArrLang[14]}/${newArrLang[14]}.html">${newArrLang[14]}</a>
+<a href="../${newArrLang[15]}/${newArrLang[15]}.html">${newArrLang[15]}</a>
 </div>
 
 <div class="footer-date">Copyright © 2023</div>
