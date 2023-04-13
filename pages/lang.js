@@ -4,9 +4,33 @@ const divGusli = document.querySelector(".div-gusli");
 const videoBlockGusli = document.querySelector(".video-block");
 const footer = document.getElementById("footer");
 const langPage = document.getElementsByTagName("html")[0].getAttribute("lang");
-let arrLang = ['en','fr','es','de','pl','fi','sv','et','no','da','lv','lt','cs','ro','hu','bg','it'];
-let newArrLang = arrLang.filter((el)=>{
-  return el!=langPage
+let arrLang = [
+  "en",
+  "fr",
+  "es",
+  "de",
+  "pl",
+  "fi",
+  "sv",
+  "et",
+  "no",
+  "da",
+  "lv",
+  "lt",
+  "cs",
+  "ro",
+  "hu",
+  "bg",
+  "it",
+  "sr",
+  "sl",
+  "hr",
+  "zh",
+  "pt",
+  "nl",
+];
+let newArrLang = arrLang.filter((el) => {
+  return el != langPage;
 });
 let nameImage = "";
 let nameGusli = "";
@@ -187,6 +211,66 @@ if (langPage == "it") {
   nameContacts = "Contatto";
   language = "Lingua";
 }
+if (langPage == "sr") {
+  nameImage = "slika";
+  nameGusli = "Gusli";
+  nameStrings = "strune";
+  namePrice = "cena: €($)";
+  nameShipping = "dostava";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Kontakti";
+  language = "Jezik";
+}
+if (langPage == "sl") {
+  nameImage = "slika";
+  nameGusli = "Psalterij";
+  nameStrings = "strune";
+  namePrice = "cena: €($)";
+  nameShipping = "dostava";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Kontakt";
+  language = "Jezik";
+}
+if (langPage == "hr") {
+  nameImage = "slika";
+  nameGusli = "Gusli";
+  nameStrings = "strune";
+  namePrice = "cijena: €($)";
+  nameShipping = "dostava";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Kontakti";
+  language = "Jezik";
+}
+if (langPage == "zh") {
+  nameImage = "图像";
+  nameGusli = "诗篇";
+  nameStrings = "弦乐器";
+  namePrice = "价格；价格: €($)";
+  nameShipping = "船舶运输";
+  nameLyre = "克拉维克七弦琴";
+  nameContacts = "联络人";
+  language = "语言";
+}
+if (langPage == "pt") {
+  nameImage = "imagem";
+  nameGusli = "Saltério";
+  nameStrings = "cordas";
+  namePrice = "preço: €($)";
+  nameShipping = "encaminhamento";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Contatos";
+  language = "Língua";
+}
+if (langPage == "nl") {
+  nameImage = "afbeelding";
+  nameGusli = "Psalterij";
+  nameStrings = "string";
+  namePrice = "prijs: €($)";
+  nameShipping = "levering";
+  nameLyre = "Kravik Lyre";
+  nameContacts = "Contact";
+  language = "Taal";
+}
 
 textGusliVnal.insertAdjacentHTML(
   "afterend",
@@ -357,7 +441,9 @@ controlsList="nodownload  nofullscreen "
 `
 );
 
-footer.insertAdjacentHTML('afterbegin', `
+footer.insertAdjacentHTML(
+  "afterbegin",
+  `
 <div class="footer-block1">
 <div id="contacts">
   <h2 id="contactsjump">${nameContacts}:</h2>
@@ -404,9 +490,12 @@ footer.insertAdjacentHTML('afterbegin', `
   </h3>
 </div>
 </div>
-`);
+`
+);
 
-footer.insertAdjacentHTML('beforeend', `
+footer.insertAdjacentHTML(
+  "beforeend",
+  `
 <div class="div-language">
 ${language}: <span class="span-active-lang">${langPage}</span>
 <a href="../../index.html">ru</a>
@@ -426,10 +515,17 @@ ${language}: <span class="span-active-lang">${langPage}</span>
 <a href="../${newArrLang[13]}/${newArrLang[13]}.html">${newArrLang[13]}</a>
 <a href="../${newArrLang[14]}/${newArrLang[14]}.html">${newArrLang[14]}</a>
 <a href="../${newArrLang[15]}/${newArrLang[15]}.html">${newArrLang[15]}</a>
+<a href="../${newArrLang[16]}/${newArrLang[16]}.html">${newArrLang[16]}</a>
+<a href="../${newArrLang[17]}/${newArrLang[17]}.html">${newArrLang[17]}</a>
+<a href="../${newArrLang[18]}/${newArrLang[18]}.html">${newArrLang[18]}</a>
+<a href="../${newArrLang[19]}/${newArrLang[19]}.html">${newArrLang[19]}</a>
+<a href="../${newArrLang[20]}/${newArrLang[20]}.html">${newArrLang[20]}</a>
+<a href="../${newArrLang[21]}/${newArrLang[21]}.html">${newArrLang[21]}</a>
 </div>
 
 <div class="footer-date">Copyright © 2023</div>
-`);
+`
+);
 
 const globalConfig = {
   movable: true,
