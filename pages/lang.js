@@ -488,6 +488,26 @@ footer.insertAdjacentHTML(
       &nbsp; Instagram
     </a>
   </h3>
+
+  <h3>
+   <img
+    class="contacts-icon-img"
+    src="../../images/telegram.png"
+    alt="telegram"
+   />&nbsp;
+   <img
+    class="contacts-icon-img"
+    src="../../images/viber.png"
+    alt="viber"
+   />&nbsp;
+   <img
+    class="contacts-icon-img"
+    src="../../images/whatsapp.png"
+    alt="whatsapp"
+   />&nbsp;
+  +375 29 777-14-53
+  </h3>
+  
 </div>
 </div>
 `
