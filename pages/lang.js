@@ -494,16 +494,19 @@ footer.insertAdjacentHTML(
     class="contacts-icon-img"
     src="../../images/telegram.png"
     alt="telegram"
+    title="Telegram"
    />&nbsp;
    <img
     class="contacts-icon-img"
     src="../../images/viber.png"
     alt="viber"
+    title="Viber"
    />&nbsp;
    <img
     class="contacts-icon-img"
     src="../../images/whatsapp.png"
     alt="whatsapp"
+    title="WhatsApp"
    />&nbsp;
   +375 29 777-14-53
   </h3>
