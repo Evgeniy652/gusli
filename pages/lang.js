@@ -21,6 +21,16 @@ ym(94134743, "init", {
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/94134743" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9NQ47NKGZP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9NQ47NKGZP');
+</script>
 `);
 const textGusliVnal = document.querySelector(".text-gusli-vnal");
 const textLiraVnal = document.querySelector(".text-lira-vnal");
