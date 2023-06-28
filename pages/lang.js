@@ -1,3 +1,27 @@
+document.head.insertAdjacentHTML("beforeend",
+`
+<meta name="msvalidate.01" content="8B7B49C8CDE151A36797D8B736992F10" />
+<meta name="yandex-verification" content="0917a70fd744a783" />
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+m[i].l=1*new Date();
+for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+ym(94134743, "init", {
+   clickmap:true,
+   trackLinks:true,
+   accurateTrackBounce:true,
+   webvisor:true,
+   ecommerce:"dataLayer"
+});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/94134743" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+`);
 const textGusliVnal = document.querySelector(".text-gusli-vnal");
 const textLiraVnal = document.querySelector(".text-lira-vnal");
 const divGusli = document.querySelector(".div-gusli");
