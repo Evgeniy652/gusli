@@ -482,13 +482,14 @@ divGusli.insertAdjacentHTML(
 videoBlockGusli.insertAdjacentHTML(
   "beforeend",
   `
-<video
-controls
-preload="metadata"
-controlsList="nodownload  nofullscreen "
->
-<source src="../../video/gusli.mp4" type="video/mp4" />
-</video>
+  <iframe
+  class="video"
+  src="https://www.youtube.com/embed/7R_rCmHMXrE"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
 `
 );
 

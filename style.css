@@ -339,7 +339,7 @@ li {
   font-size: 17px;
 }
 
-video {
+.video {
   width: 300px;
   height: 200px;
   border: rgba(255, 255, 255, 0.527) solid 3px;
