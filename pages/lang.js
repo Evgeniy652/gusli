@@ -345,18 +345,19 @@ textGusliVnal.insertAdjacentHTML(
 
         <ul class="images images1">
           <li class="visible">
-            <img src="../../images/product/4/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+            <img src="../../images/product/3/1.jpg" alt="${nameGusli}-${nameImage}-1" />
           </li>
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 4, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            ${nameGusli} № 3, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
             </h2>
           </li>
 
           <div class="hidden-photos">
-            <img src="../../images/product/4/2.jpg" alt="${nameGusli}-${nameImage}-2" />
-            <img src="../../images/product/4/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/3/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+            <img src="../../images/product/3/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/3/4.jpg" alt="${nameGusli}-${nameImage}-3" />
           </div>
         </ul>
 
