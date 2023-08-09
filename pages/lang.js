@@ -447,7 +447,7 @@ textLiraVnal.insertAdjacentHTML(
     </li>
     <li>
       <h2 class="textproduct">
-        ${nameLyre} №1, 7 ${nameStrings},<br />${namePrice}200 + ${nameShipping}
+        ${nameLyre} №1, 7 ${nameStrings},<br />not available
       </h2>
     </li>
     <div class="hidden-photos">
