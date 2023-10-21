@@ -411,7 +411,11 @@ footer {
 }
 
 .contacts-icon-img {
-  width: 22px;
+  width: 23px;
+}
+
+.vk-icon-img {
+  width: 25px;
 }
 
 .comment {
