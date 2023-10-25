@@ -614,7 +614,7 @@ footer.insertAdjacentHTML(
   `
 <div class="div-language">
 ${language}: <span class="span-active-lang">${langPage}</span>
-<a href="../../index.html">ru</a>
+<a href="/">ru</a>
 <a href="../${newArrLang[0]}/${newArrLang[0]}.html">${newArrLang[0]}</a>
 <a href="../${newArrLang[1]}/${newArrLang[1]}.html">${newArrLang[1]}</a>
 <a href="../${newArrLang[2]}/${newArrLang[2]}.html">${newArrLang[2]}</a>

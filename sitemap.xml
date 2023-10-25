@@ -3,11 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://egusli.by/index.html</loc>
-     <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/> 
+    <loc>https://egusli.by/</loc> 
     <xhtml:link
                rel="alternate"
                hreflang="en"
