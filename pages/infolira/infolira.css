@@ -106,6 +106,12 @@ header {
 }
 /* Конец меню шапки */
 
+.topic {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
 article {
   display: flex;
   flex-direction: column;
