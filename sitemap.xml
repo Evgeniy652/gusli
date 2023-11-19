@@ -1,101 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
+
   <url>
     <loc>https://egusli.by/</loc> 
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://egusli.by/pages/en/en.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="fr"
-               href="https://egusli.by/pages/fr/fr.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="es"
-               href="https://egusli.by/pages/es/es.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="de"
-               href="https://egusli.by/pages/de/de.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pl"
-               href="https://egusli.by/pages/pl/pl.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="fi"
-               href="https://egusli.by/pages/fi/fi.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="sv"
-               href="https://egusli.by/pages/sv/sv.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="et"
-               href="https://egusli.by/pages/et/et.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="no"
-               href="https://egusli.by/pages/no/no.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="da"
-               href="https://egusli.by/pages/da/da.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="lv"
-               href="https://egusli.by/pages/lv/lv.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="lt"
-               href="https://egusli.by/pages/lt/lt.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="cs"
-               href="https://egusli.by/pages/cs/cs.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ro"
-               href="https://egusli.by/pages/ro/ro.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="hu"
-               href="https://egusli.by/pages/hu/hu.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="bg"
-               href="https://egusli.by/pages/bg/bg.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="it"
-               href="https://egusli.by/pages/it/it.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="sr"
-               href="https://egusli.by/pages/sr/sr.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="sl"
-               href="https://egusli.by/pages/sl/sl.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="hr"
-               href="https://egusli.by/pages/hr/hr.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="zh"
-               href="https://egusli.by/pages/zh/zh.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="pt"
-               href="https://egusli.by/pages/pt/pt.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="nl"
-               href="https://egusli.by/pages/nl/nl.html"/>
   </url>
 
   <url>
@@ -109,13 +17,12 @@
   <url>
     <loc>https://egusli.by/pages/infolira/infolira.html</loc>
   </url>
+  
+
 
   <url>
     <loc>https://egusli.by/pages/en/en.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -212,10 +119,7 @@
 
   <url>
     <loc>https://egusli.by/pages/fr/fr.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -312,10 +216,7 @@
 
   <url>
     <loc>https://egusli.by/pages/es/es.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -412,10 +313,7 @@
 
   <url>
     <loc>https://egusli.by/pages/de/de.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -512,10 +410,7 @@
 
   <url>
     <loc>https://egusli.by/pages/pl/pl.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -612,10 +507,7 @@
 
   <url>
     <loc>https://egusli.by/pages/fi/fi.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -712,10 +604,7 @@
 
   <url>
     <loc>https://egusli.by/pages/sv/sv.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -812,10 +701,7 @@
 
   <url>
     <loc>https://egusli.by/pages/et/et.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -912,10 +798,7 @@
 
   <url>
     <loc>https://egusli.by/pages/no/no.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -1012,10 +895,7 @@
 
   <url>
     <loc>https://egusli.by/pages/da/da.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -1112,10 +992,7 @@
 
   <url>
     <loc>https://egusli.by/pages/lv/lv.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -1212,10 +1089,7 @@
 
   <url>
     <loc>https://egusli.by/pages/lt/lt.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -1312,10 +1186,7 @@
 
   <url>
     <loc>https://egusli.by/pages/cs/cs.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -1412,10 +1283,7 @@
 
   <url>
     <loc>https://egusli.by/pages/ro/ro.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -1512,10 +1380,7 @@
 
   <url>
     <loc>https://egusli.by/pages/hu/hu.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -1612,10 +1477,7 @@
 
   <url>
     <loc>https://egusli.by/pages/bg/bg.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -1712,10 +1574,7 @@
 
   <url>
     <loc>https://egusli.by/pages/it/it.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -1812,10 +1671,7 @@
 
   <url>
     <loc>https://egusli.by/pages/sr/sr.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -1912,10 +1768,7 @@
 
   <url>
     <loc>https://egusli.by/pages/sl/sl.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -2012,10 +1865,7 @@
 
   <url>
     <loc>https://egusli.by/pages/hr/hr.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -2112,10 +1962,7 @@
 
   <url>
     <loc>https://egusli.by/pages/zh/zh.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -2212,10 +2059,7 @@
 
   <url>
     <loc>https://egusli.by/pages/pt/pt.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
@@ -2312,10 +2156,7 @@
 
   <url>
     <loc>https://egusli.by/pages/nl/nl.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://egusli.by/"/>
+
     <xhtml:link
                rel="alternate"
                hreflang="en"
