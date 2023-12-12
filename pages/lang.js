@@ -32,6 +32,32 @@ ym(94134743, "init", {
   gtag('config', 'G-9NQ47NKGZP');
 </script>
 `);
+document.head.insertAdjacentHTML("beforeend",
+`
+<link rel="alternate" hreflang="en" href="https://egusli.by/pages/en/en.html"/>
+<link rel="alternate" hreflang="fr" href="https://egusli.by/pages/fr/fr.html"/>
+<link rel="alternate" hreflang="es" href="https://egusli.by/pages/es/es.html"/>
+<link rel="alternate" hreflang="de" href="https://egusli.by/pages/de/de.html"/>
+<link rel="alternate" hreflang="pl" href="https://egusli.by/pages/pl/pl.html"/>
+<link rel="alternate" hreflang="fi" href="https://egusli.by/pages/fi/fi.html"/>
+<link rel="alternate" hreflang="sv" href="https://egusli.by/pages/sv/sv.html"/>
+<link rel="alternate" hreflang="et" href="https://egusli.by/pages/et/et.html"/>
+<link rel="alternate" hreflang="no" href="https://egusli.by/pages/no/no.html"/>
+<link rel="alternate" hreflang="da" href="https://egusli.by/pages/da/da.html"/>
+<link rel="alternate" hreflang="lv" href="https://egusli.by/pages/lv/lv.html"/>
+<link rel="alternate" hreflang="lt" href="https://egusli.by/pages/lt/lt.html"/>
+<link rel="alternate" hreflang="cs" href="https://egusli.by/pages/cs/cs.html"/>
+<link rel="alternate" hreflang="ro" href="https://egusli.by/pages/ro/ro.html"/>
+<link rel="alternate" hreflang="hu" href="https://egusli.by/pages/hu/hu.html"/>
+<link rel="alternate" hreflang="bg" href="https://egusli.by/pages/bg/bg.html"/>
+<link rel="alternate" hreflang="it" href="https://egusli.by/pages/it/it.html"/>
+<link rel="alternate" hreflang="sr" href="https://egusli.by/pages/sr/sr.html"/>
+<link rel="alternate" hreflang="sl" href="https://egusli.by/pages/sl/sl.html"/>
+<link rel="alternate" hreflang="hr" href="https://egusli.by/pages/hr/hr.html"/>
+<link rel="alternate" hreflang="zh" href="https://egusli.by/pages/zh/zh.html"/>
+<link rel="alternate" hreflang="pt" href="https://egusli.by/pages/pt/pt.html"/>
+<link rel="alternate" hreflang="nl" href="https://egusli.by/pages/nl/nl.html"/>
+`);
 const textGusliVnal = document.querySelector(".text-gusli-vnal");
 const textLiraVnal = document.querySelector(".text-lira-vnal");
 const divGusli = document.querySelector(".div-gusli");
@@ -435,22 +461,6 @@ textGusliVnal.insertAdjacentHTML(
         </ul>
 
         <ul class="images images1">
-          <li class="visible">
-            <img src="../../images/product/8/1.jpg" alt="${nameGusli}-${nameImage}-1" />
-          </li>
-
-          <li>
-            <h2 class="textproduct">
-            ${nameGusli} № 8, 12 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
-            </h2>
-          </li>
-
-          <div class="hidden-photos">
-            <img src="../../images/product/8/2.jpg" alt="${nameGusli}-${nameImage}-2" />
-          </div>
-        </ul>
-
-        <ul class="images images1">
         <li class="visible">
           <img src="../../images/product/9/1.jpg" alt="${nameGusli}-${nameImage}-1" />
         </li>
@@ -639,7 +649,7 @@ ${language}: <span class="span-active-lang">${langPage}</span>
 <a href="../${newArrLang[21]}/${newArrLang[21]}.html">${newArrLang[21]}</a>
 </div>
 
-<div class="footer-date">Copyright © 2023</div>
+<div class="footer-date">Copyright © 2024</div>
 `
 );
 
