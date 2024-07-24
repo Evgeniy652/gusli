@@ -340,17 +340,36 @@ textGusliVnal.insertAdjacentHTML(
 
         <ul class="images images1">
           <li class="visible">
+            <img src="../../images/product/1/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+          </li>
+
+          <li>
+            <h2 class="textproduct">
+            ${nameGusli} № 1, 11 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
+            </h2>
+          </li>
+          <div class="hidden-photos">
+            <img src="../../images/product/1/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+            <img src="../../images/product/1/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/1/4.jpg" alt="${nameGusli}-${nameImage}-4" />
+            <img src="../../images/product/1/5.jpg" alt="${nameGusli}-${nameImage}-5" />
+          </div>
+        </ul>
+
+        <ul class="images images1">
+          <li class="visible">
             <img src="../../images/product/2/1.jpg" alt="${nameGusli}-${nameImage}-1" />
           </li>
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 2, 12 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
+            ${nameGusli} № 2, 11 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
             </h2>
           </li>
           <div class="hidden-photos">
             <img src="../../images/product/2/2.jpg" alt="${nameGusli}-${nameImage}-2" />
             <img src="../../images/product/2/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/2/4.jpg" alt="${nameGusli}-${nameImage}-4" />
           </div>
         </ul>
 
@@ -408,7 +427,6 @@ textGusliVnal.insertAdjacentHTML(
             <img src="../../images/product/6/2.jpg" alt="${nameGusli}-${nameImage}-2" />
             <img src="../../images/product/6/3.jpg" alt="${nameGusli}-${nameImage}-3" />
             <img src="../../images/product/6/4.jpg" alt="${nameGusli}-${nameImage}-4" />
-            <img src="../../images/product/6/5.jpg" alt="${nameGusli}-${nameImage}-5" />
           </div>
         </ul>
 
