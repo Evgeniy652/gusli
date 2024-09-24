@@ -376,6 +376,43 @@ textGusliVnal.insertAdjacentHTML(
 
         <ul class="images images1">
           <li class="visible">
+            <img src="../../images/product/6/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+          </li>
+
+          <li>
+            <h2 class="textproduct">
+            ${nameGusli} № 6, 11 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
+            </h2>
+          </li>
+
+          <div class="hidden-photos">
+            <img src="../../images/product/6/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+            <img src="../../images/product/6/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/6/4.jpg" alt="${nameGusli}-${nameImage}-4" />
+          </div>
+        </ul>
+
+
+        <ul class="images images1">
+        <li class="visible">
+          <img src="../../images/product/9/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+        </li>
+
+        <li>
+          <h2 class="textproduct">
+          ${nameGusli} № 9, 12 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
+          </h2>
+        </li>
+
+        <div class="hidden-photos">
+          <img src="../../images/product/9/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+          <img src="../../images/product/9/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+          <img src="../../images/product/9/4.jpg" alt="${nameGusli}-${nameImage}-4" />
+        </div>
+      </ul>
+
+      <ul class="images images1">
+          <li class="visible">
             <img src="../../images/product/3/1.jpg" alt="${nameGusli}-${nameImage}-1" />
           </li>
 
@@ -407,64 +444,8 @@ textGusliVnal.insertAdjacentHTML(
           <div class="hidden-photos">
             <img src="../../images/product/4/2.jpg" alt="${nameGusli}-${nameImage}-2" />
             <img src="../../images/product/4/3.jpg" alt="${nameGusli}-${nameImage}-3" />
-            <img src="../../images/product/4/4.jpg" alt="${nameGusli}-${nameImage}-3" />
           </div>
         </ul>
-
-
-        <ul class="images images1">
-          <li class="visible">
-            <img src="../../images/product/6/1.jpg" alt="${nameGusli}-${nameImage}-1" />
-          </li>
-
-          <li>
-            <h2 class="textproduct">
-            ${nameGusli} № 6, 11 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
-            </h2>
-          </li>
-
-          <div class="hidden-photos">
-            <img src="../../images/product/6/2.jpg" alt="${nameGusli}-${nameImage}-2" />
-            <img src="../../images/product/6/3.jpg" alt="${nameGusli}-${nameImage}-3" />
-            <img src="../../images/product/6/4.jpg" alt="${nameGusli}-${nameImage}-4" />
-          </div>
-        </ul>
-
-        <ul class="images images1">
-          <li class="visible">
-            <img src="../../images/product/7/1.jpg" alt="${nameGusli}-${nameImage}-1" />
-          </li>
-
-          <li>
-            <h2 class="textproduct">
-            ${nameGusli} № 7, 12 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
-            </h2>
-          </li>
-
-          <div class="hidden-photos">
-            <img src="../../images/product/7/2.jpg" alt="${nameGusli}-${nameImage}-2" />
-            <img src="../../images/product/7/3.jpg" alt="${nameGusli}-${nameImage}-2" />
-            <img src="../../images/product/7/4.jpg" alt="${nameGusli}-${nameImage}-2" />
-          </div>
-        </ul>
-
-        <ul class="images images1">
-        <li class="visible">
-          <img src="../../images/product/9/1.jpg" alt="${nameGusli}-${nameImage}-1" />
-        </li>
-
-        <li>
-          <h2 class="textproduct">
-          ${nameGusli} № 9, 12 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
-          </h2>
-        </li>
-
-        <div class="hidden-photos">
-          <img src="../../images/product/9/2.jpg" alt="${nameGusli}-${nameImage}-2" />
-          <img src="../../images/product/9/3.jpg" alt="${nameGusli}-${nameImage}-3" />
-          <img src="../../images/product/9/4.jpg" alt="${nameGusli}-${nameImage}-4" />
-        </div>
-      </ul>
 
       </div>
 `
