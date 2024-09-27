@@ -521,13 +521,13 @@ footer.insertAdjacentHTML(
   <h2 id="contactsjump">${nameContacts}:</h2>
 
   <h3>
-    <a class="center" href="mailto:evgen652@mail.ru">
+    <a class="center" href="mailto:evgen256w@gmail.com">
       <img
         class="contacts-icon-img"
         src="../../images/email1.png"
         alt="email"
       />
-      &nbsp; evgen652@mail.ru
+      &nbsp; evgen256w@gmail.com
     </a>
   </h3>
 
