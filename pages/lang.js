@@ -345,7 +345,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 1, 11 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
+            ${nameGusli} № 1, 11 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
             </h2>
           </li>
           <div class="hidden-photos">
@@ -363,7 +363,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 2, 11 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
+            ${nameGusli} № 2, 11 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
             </h2>
           </li>
           <div class="hidden-photos">
@@ -381,7 +381,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 6, 11 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
+            ${nameGusli} № 6, 11 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
             </h2>
           </li>
 
@@ -400,7 +400,7 @@ textGusliVnal.insertAdjacentHTML(
 
         <li>
           <h2 class="textproduct">
-          ${nameGusli} № 9, 12 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
+          ${nameGusli} № 9, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
           </h2>
         </li>
 
@@ -418,7 +418,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 3, 12 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
+            ${nameGusli} № 3, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
             </h2>
           </li>
 
@@ -437,7 +437,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 4, 12 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
+            ${nameGusli} № 4, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
             </h2>
           </li>
 
@@ -454,7 +454,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 5, 12 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
+            ${nameGusli} № 5, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
             </h2>
           </li>
 
@@ -472,13 +472,48 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 7, 12 ${nameStrings},<br />${namePrice}negotiated + ${nameShipping}
+            ${nameGusli} № 7, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
             </h2>
           </li>
 
           <div class="hidden-photos">
             <img src="../../images/product/7/2.jpg" alt="${nameGusli}-${nameImage}-2" />
             <img src="../../images/product/7/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+          </div>
+        </ul>
+
+        <ul class="images images1">
+          <li class="visible">
+            <img src="../../images/product/8/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+          </li>
+
+          <li>
+            <h2 class="textproduct">
+            ${nameGusli} № 8, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            </h2>
+          </li>
+
+          <div class="hidden-photos">
+            <img src="../../images/product/8/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+            <img src="../../images/product/8/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/8/4.jpg" alt="${nameGusli}-${nameImage}-4" />
+            <img src="../../images/product/8/5.jpg" alt="${nameGusli}-${nameImage}-5" />
+          </div>
+        </ul>
+
+        <ul class="images images1">
+          <li class="visible">
+            <img src="../../images/product/10/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+          </li>
+
+          <li>
+            <h2 class="textproduct">
+            ${nameGusli} № 10, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            </h2>
+          </li>
+
+          <div class="hidden-photos">
+            <img src="../../images/product/10/2.jpg" alt="${nameGusli}-${nameImage}-2" />
           </div>
         </ul>
 
