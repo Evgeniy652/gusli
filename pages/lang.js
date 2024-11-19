@@ -517,6 +517,61 @@ textGusliVnal.insertAdjacentHTML(
           </div>
         </ul>
 
+        <ul class="images images1">
+          <li class="visible">
+            <img src="../../images/product/11/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+          </li>
+
+          <li>
+            <h2 class="textproduct">
+            ${nameGusli} № 11, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            </h2>
+          </li>
+
+          <div class="hidden-photos">
+            <img src="../../images/product/11/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+            <img src="../../images/product/11/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/11/4.jpg" alt="${nameGusli}-${nameImage}-4" />
+          </div>
+        </ul>
+
+        <ul class="images images1">
+          <li class="visible">
+            <img src="../../images/product/12/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+          </li>
+
+          <li>
+            <h2 class="textproduct">
+            ${nameGusli} № 12, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            </h2>
+          </li>
+
+          <div class="hidden-photos">
+            <img src="../../images/product/12/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+            <img src="../../images/product/12/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/12/4.jpg" alt="${nameGusli}-${nameImage}-4" />
+          </div>
+        </ul>
+
+        <ul class="images images1">
+          <li class="visible">
+            <img src="../../images/product/13/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+          </li>
+
+          <li>
+            <h2 class="textproduct">
+            ${nameGusli} / Kantele № 13, 11 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            </h2>
+          </li>
+
+          <div class="hidden-photos">
+            <img src="../../images/product/13/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+            <img src="../../images/product/13/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/13/4.jpg" alt="${nameGusli}-${nameImage}-4" />
+            <img src="../../images/product/13/5.jpg" alt="${nameGusli}-${nameImage}-5" />
+          </div>
+        </ul>
+
       </div>
 `
 );
