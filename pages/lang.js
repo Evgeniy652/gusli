@@ -532,7 +532,7 @@ textLiraVnal.insertAdjacentHTML(
 
   <li>
     <h2 class="textproduct">
-    ${nameLyre} №2, 7 ${nameStrings},<br /> not available 
+    ${nameLyre} №3, 7 ${nameStrings},<br /> not available 
     </h2>
   </li>
   <div class="hidden-photos">
@@ -541,10 +541,27 @@ textLiraVnal.insertAdjacentHTML(
   </div>
 </ul>
 
+<ul class="images images1">
+  <li class="visible">
+    <img src="../../images/lira/4/1.jpg" alt="${nameLyre}-${nameImage}-1" />
+  </li>
+
+  <li>
+    <h2 class="textproduct">
+    ${nameLyre} №4, 7 ${nameStrings},<br /> ${namePrice}300 + ${nameShipping} 
+    </h2>
+  </li>
+  <div class="hidden-photos">
+    <img src="../../images/lira/4/2.jpg" alt="${nameLyre}-${nameImage}-2" />
+    <img src="../../images/lira/4/3.jpg" alt="${nameLyre}-${nameImage}-3" />
+    <img src="../../images/lira/4/4.jpg" alt="${nameLyre}-${nameImage}-3" />
+  </div>
+</ul>
+
 </div>
 `
 );
- /*${namePrice}200 + ${nameShipping} использовал для указания цены лиры*/
+ /*${namePrice}300 + ${nameShipping} использовал для указания цены лиры*/
 
 divGusli.insertAdjacentHTML(
   "afterbegin",
