@@ -373,6 +373,40 @@ textGusliVnal.insertAdjacentHTML(
           </div>
         </ul>
 
+        <ul class="images images1">
+          <li class="visible">
+            <img src="../../images/product/6/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+          </li>
+
+          <li>
+            <h2 class="textproduct">
+            ${nameGusli}/Kantele № 6, 11 ${nameStrings},<br />${namePrice}180 + ${nameShipping}
+            </h2>
+          </li>
+          <div class="hidden-photos">
+            <img src="../../images/product/6/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+            <img src="../../images/product/6/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/6/4.jpg" alt="${nameGusli}-${nameImage}-4" />
+          </div>
+        </ul>
+
+         <ul class="images images1">
+          <li class="visible">
+            <img src="../../images/product/7/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+          </li>
+
+          <li>
+            <h2 class="textproduct">
+            ${nameGusli}/Gesle № 7, 5 ${nameStrings},<br />${namePrice}180 + ${nameShipping}
+            </h2>
+          </li>
+          <div class="hidden-photos">
+            <img src="../../images/product/7/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+            <img src="../../images/product/7/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/7/4.jpg" alt="${nameGusli}-${nameImage}-4" />
+          </div>
+        </ul>
+
 
       <ul class="images images1">
           <li class="visible">
