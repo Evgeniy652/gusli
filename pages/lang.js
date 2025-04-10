@@ -482,6 +482,24 @@ textGusliVnal.insertAdjacentHTML(
           </div>
         </ul>
 
+
+        <ul class="images images1">
+          <li class="visible">
+            <img src="../../images/product/9/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+          </li>
+
+          <li>
+            <h2 class="textproduct">
+            ${nameGusli} № 9, 11 ${nameStrings},<br />${namePrice}180 + ${nameShipping}
+            </h2>
+          </li>
+
+          <div class="hidden-photos">
+            <img src="../../images/product/9/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+            <img src="../../images/product/9/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+          </div>
+        </ul>
+
         <ul class="images images1">
           <li class="visible">
             <img src="../../images/product/10/1.jpg" alt="${nameGusli}-${nameImage}-1" />
@@ -582,7 +600,7 @@ textLiraVnal.insertAdjacentHTML(
 
   <li>
     <h2 class="textproduct">
-    ${nameLyre} №4, 7 ${nameStrings},<br /> ${namePrice}300 + ${nameShipping} 
+    ${nameLyre} №4, 7 ${nameStrings},<br /> ${namePrice}280 + ${nameShipping} 
     </h2>
   </li>
   <div class="hidden-photos">
