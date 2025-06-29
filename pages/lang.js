@@ -710,6 +710,22 @@ textLiraVnal.insertAdjacentHTML(
   </div>
 </ul>
 
+<ul class="images images1">
+  <li class="visible">
+    <img src="../../images/lira/9/1.jpg" alt="${nameLyre}-${nameImage}-1" />
+  </li>
+
+  <li>
+    <h2 class="textproduct">
+    ${nameLyre} №9, 7 ${nameStrings},<br /> ${namePrice}400 + ${nameShipping}
+    </h2>
+  </li>
+  <div class="hidden-photos">
+    <img src="../../images/lira/9/2.jpg" alt="${nameLyre}-${nameImage}-2" />
+    <img src="../../images/lira/9/3.jpg" alt="${nameLyre}-${nameImage}-3" />
+  </div>
+</ul>
+
 </div>
 `
 );
