@@ -801,6 +801,21 @@ footer.insertAdjacentHTML(
   </h3>
 
   <h3>
+    <a
+      class="center"
+      href="https://www.facebook.com/evgenii.gusli"
+      target="_blank"
+    >
+      <img
+        class="contacts-icon-img"
+        src="../../images/facebook.png"
+        alt="facebook"
+      />
+      &nbsp; Facebook
+    </a>
+  </h3>
+
+  <h3>
    <img
     class="contacts-icon-img"
     src="../../images/telegram.png"
