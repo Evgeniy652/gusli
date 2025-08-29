@@ -5,7 +5,7 @@ let CURRENT_SLIDER_NUMBER = 1;
 // Показывает текущее значение для слайдера
 const START_SLIDER_NUMBER = 1;
 // Показывает кол-во фото для слайдера
-const NUMBER_OF_PHOTOS_FOR_SLIDER = 46;
+const NUMBER_OF_PHOTOS_FOR_SLIDER = 47;
 const sliderContainer = document.querySelector('.slider-container');
 
 function postLoadSlider() {
