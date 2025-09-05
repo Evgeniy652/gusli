@@ -363,13 +363,47 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 2, 11 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            ${nameGusli} № 2, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
             </h2>
           </li>
           <div class="hidden-photos">
             <img src="../../images/product/2/2.jpg" alt="${nameGusli}-${nameImage}-2" />
             <img src="../../images/product/2/3.jpg" alt="${nameGusli}-${nameImage}-3" />
             <img src="../../images/product/2/4.jpg" alt="${nameGusli}-${nameImage}-4" />
+          </div>
+        </ul>
+
+        <ul class="images images1">
+          <li class="visible">
+            <img src="../../images/product/3/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+          </li>
+
+          <li>
+            <h2 class="textproduct">
+            ${nameGusli} № 3, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            </h2>
+          </li>
+          <div class="hidden-photos">
+            <img src="../../images/product/3/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+            <img src="../../images/product/3/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/3/4.jpg" alt="${nameGusli}-${nameImage}-4" />
+          </div>
+        </ul>
+
+        <ul class="images images1">
+          <li class="visible">
+            <img src="../../images/product/5/1.jpg" alt="${nameGusli}-${nameImage}-1" />
+          </li>
+
+          <li>
+            <h2 class="textproduct">
+            ${nameGusli}/Kantele № 5, 11 ${nameStrings},<br />${namePrice}130 + ${nameShipping}
+            </h2>
+          </li>
+          <div class="hidden-photos">
+            <img src="../../images/product/5/2.jpg" alt="${nameGusli}-${nameImage}-2" />
+            <img src="../../images/product/5/3.jpg" alt="${nameGusli}-${nameImage}-3" />
+            <img src="../../images/product/5/4.jpg" alt="${nameGusli}-${nameImage}-4" />
           </div>
         </ul>
 
