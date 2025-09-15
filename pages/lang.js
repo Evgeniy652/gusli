@@ -346,7 +346,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 1, 12 ${nameStrings},<br />${namePrice}180 + ${nameShipping}
+            ${nameGusli} № 1, 12 ${nameStrings},<br />${namePrice}200 + ${nameShipping}
             </h2>
           </li>
           <div class="hidden-photos">
@@ -363,7 +363,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 2, 12 ${nameStrings},<br />${namePrice}180 + ${nameShipping}
+            ${nameGusli} № 2, 12 ${nameStrings},<br />${namePrice}200 + ${nameShipping}
             </h2>
           </li>
           <div class="hidden-photos">
@@ -380,7 +380,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 3, 12 ${nameStrings},<br />${namePrice}180 + ${nameShipping}
+            ${nameGusli} № 3, 12 ${nameStrings},<br />${namePrice}200 + ${nameShipping}
             </h2>
           </li>
           <div class="hidden-photos">
@@ -397,7 +397,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli}/Kantele № 5, 11 ${nameStrings},<br />${namePrice}130 + ${nameShipping}
+            ${nameGusli}/Kantele № 5, 11 ${nameStrings},<br />${namePrice}180 + ${nameShipping}
             </h2>
           </li>
           <div class="hidden-photos">
@@ -414,7 +414,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli}/Kantele № 6, 11 ${nameStrings},<br />${namePrice}130 + ${nameShipping}
+            ${nameGusli}/Kantele № 6, 11 ${nameStrings},<br />${namePrice}180 + ${nameShipping}
             </h2>
           </li>
           <div class="hidden-photos">
@@ -430,7 +430,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli}/Gesle № 7, 5 ${nameStrings},<br />${namePrice}100 + ${nameShipping}
+            ${nameGusli}/Gesle № 7, 5 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
             </h2>
           </li>
           <div class="hidden-photos">
@@ -450,7 +450,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 4, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            ${nameGusli} № 4, 12 ${nameStrings},<br />${namePrice}200 + ${nameShipping}
             </h2>
           </li>
 
@@ -469,7 +469,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 8, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            ${nameGusli} № 8, 12 ${nameStrings},<br />${namePrice}200 + ${nameShipping}
             </h2>
           </li>
 
@@ -489,7 +489,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 9, 11 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            ${nameGusli} № 9, 11 ${nameStrings},<br />${namePrice}200 + ${nameShipping}
             </h2>
           </li>
 
@@ -506,7 +506,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 10, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            ${nameGusli} № 10, 12 ${nameStrings},<br />${namePrice}200 + ${nameShipping}
             </h2>
           </li>
 
@@ -522,7 +522,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 12, 12 ${nameStrings},<br />${namePrice}150 + ${nameShipping}
+            ${nameGusli} № 12, 12 ${nameStrings},<br />${namePrice}200 + ${nameShipping}
             </h2>
           </li>
 
@@ -540,7 +540,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 14, 12 ${nameStrings},<br />${namePrice}180 + ${nameShipping}
+            ${nameGusli} № 14, 12 ${nameStrings},<br />${namePrice}200 + ${nameShipping}
             </h2>
           </li>
 
@@ -558,7 +558,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 11, 20 ${nameStrings},<br />${namePrice}350 + ${nameShipping}
+            ${nameGusli} № 11, 20 ${nameStrings},<br />${namePrice}400 + ${nameShipping}
             </h2>
           </li>
 
@@ -575,7 +575,7 @@ textGusliVnal.insertAdjacentHTML(
 
           <li>
             <h2 class="textproduct">
-            ${nameGusli} № 15, 20 ${nameStrings},<br />${namePrice}350 + ${nameShipping}
+            ${nameGusli} № 15, 20 ${nameStrings},<br />${namePrice}400 + ${nameShipping}
             </h2>
           </li>
 
