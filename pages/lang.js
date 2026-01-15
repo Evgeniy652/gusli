@@ -403,7 +403,6 @@ textGusliVnal.insertAdjacentHTML(
           <div class="hidden-photos">
             <img src="../../images/product/5/2.jpg" alt="${nameGusli}-${nameImage}-2" />
             <img src="../../images/product/5/3.jpg" alt="${nameGusli}-${nameImage}-3" />
-            <img src="../../images/product/5/4.jpg" alt="${nameGusli}-${nameImage}-4" />
           </div>
         </ul>
 
@@ -419,7 +418,6 @@ textGusliVnal.insertAdjacentHTML(
           </li>
           <div class="hidden-photos">
             <img src="../../images/product/6/2.jpg" alt="${nameGusli}-${nameImage}-2" />
-            <img src="../../images/product/6/3.jpg" alt="${nameGusli}-${nameImage}-3" />
           </div>
         </ul>
 
@@ -593,6 +591,37 @@ textLiraVnal.insertAdjacentHTML(
   "afterend",
   `
 <div id="available-lira">
+
+  <ul class="images images1">
+    <li class="visible">
+      <img src="../../images/lira/12/1.jpg" alt="${nameLyre}-${nameImage}-1" />
+    </li>
+    <li>
+      <h2 class="textproduct">
+        Bowed lyre Tagelharpa Talharpa Lira smyczkowa №12, 3 nylon ${nameStrings},<br />${namePrice}200 + ${nameShipping}
+      </h2>
+    </li>
+    <div class="hidden-photos">
+      <img src="../../images/lira/12/2.jpg" alt="${nameLyre}-${nameImage}-2" />
+      <img src="../../images/lira/12/3.jpg" alt="${nameLyre}-${nameImage}-3" />
+    </div>
+  </ul>
+
+  <ul class="images images1">
+    <li class="visible">
+      <img src="../../images/lira/13/1.jpg" alt="${nameLyre}-${nameImage}-1" />
+    </li>
+    <li>
+      <h2 class="textproduct">
+        Bass Bowed lyre Tagelharpa Talharpa Lira smyczkowa №13, 4 metal ${nameStrings},<br />${namePrice}200 + ${nameShipping}
+      </h2>
+    </li>
+    <div class="hidden-photos">
+      <img src="../../images/lira/13/2.jpg" alt="${nameLyre}-${nameImage}-2" />
+      <img src="../../images/lira/13/3.jpg" alt="${nameLyre}-${nameImage}-3" />
+      <img src="../../images/lira/13/4.jpg" alt="${nameLyre}-${nameImage}-4" />
+    </div>
+  </ul>
 
   <ul class="images images1">
     <li class="visible">
